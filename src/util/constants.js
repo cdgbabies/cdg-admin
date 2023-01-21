@@ -1,0 +1,10 @@
+export const ADMIN_GROUP="Admin";
+export const MEMBER_GROUP="Member";
+export const USER_POOL_ID=import.meta.env.VITE_USER_POOL_ID;
+export const CLIENT_ID=import.meta.env.VITE_CLIENT_ID;
+export const IDENTITY_POOL_ID = import.meta.env.VITE_IDENTITY_POOL_ID;
+export const COGNITO_ENDPOINT= import.meta.env.VITE_COGNITO_ENDPOINT;
+export const REGION= "us-east-1";
+export const BUCKET_NAME=import.meta.env.VITE_BUCKET_NAME;
+//VITE_LIST_BLOG=https://se6a5hdqlzuicivc6fujxlu6gm0duqqe.lambda-url.us-east-1.on.aws/
+export const LIST_BLOGS_URL=import.meta.env.VITE_LIST_BLOG;
